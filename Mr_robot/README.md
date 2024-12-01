@@ -1,12 +1,19 @@
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#) 
 [![Virtual Lab](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)](#) 
 [![VulnHub](https://img.shields.io/badge/VulnHub-26A69A?style=for-the-badge&logo=v&logoColor=white)](https://www.vulnhub.com) 
-[![Mr Robot:1](https://img.shields.io/badge/Mr_Robot_1-D32F2F?style=for-the-badge&logo=robots&logoColor=white)](https://www.vulnhub.com/entry/mr-robot-1,151/) 
+[![Mr Robot:1](https://img.shields.io/badge/Mr_Robot_1-D32F2F?style=for-the-badge&logo=robots&logoColor=white)](https://www.vulnhub.com/entry/mr-robot-1,151/)  
+
 [![Nmap](https://img.shields.io/badge/Nmap-4CAF50?style=for-the-badge&logo=n&logoColor=white)](https://nmap.org) 
 [![Wpscan](https://img.shields.io/badge/Wpscan-F44336?style=for-the-badge&logo=wordpress&logoColor=white)](https://github.com/wpscanteam/wpscan) 
-[![Dirsearch](https://img.shields.io/badge/Dirsearch-FF9800?style=for-the-badge&logo=search&logoColor=white)](https://github.com/maurosoria/dirsearch) 
-[![Netcat](https://img.shields.io/badge/Netcat-9E9E9E?style=for-the-badge&logo=nc&logoColor=white)](https://nc110.sourceforge.io/)  [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)  [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)  [![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)](https://wordpress.org)  
-[![Reverse Shell](https://img.shields.io/badge/Reverse_Shell-000000?style=for-the-badge&logo=linux&logoColor=white)](#)  [![CrackStation](https://img.shields.io/badge/CrackStation-5D4037?style=for-the-badge&logo=lock&logoColor=white)](https://crackstation.net)  
+[![Dirsearch](https://img.shields.io/badge/Dirsearch-FF9800?style=for-the-badge&logo=search&logoColor=white)](https://github.com/maurosoria/dirsearch)  
+
+[![Netcat](https://img.shields.io/badge/Netcat-9E9E9E?style=for-the-badge&logo=nc&logoColor=white)](https://nc110.sourceforge.io/)  
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)  
+[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)  
+[![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)](https://wordpress.org)  
+[![Reverse Shell](https://img.shields.io/badge/Reverse_Shell-000000?style=for-the-badge&logo=linux&logoColor=white)](#)  
+[![CrackStation](https://img.shields.io/badge/CrackStation-5D4037?style=for-the-badge&logo=lock&logoColor=white)](https://crackstation.net)  
+
 
 # Walkthrough Mr Robot:1
 
