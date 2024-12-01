@@ -1,0 +1,11 @@
+# Nmap 7.94SVN scan initiated Wed Apr 17 15:20:13 2024 as: nmap --script=/usr/share/nmap/scripts/http-wordpress-brute.nse -p 80 -oN nmap_scan_script_wordpress_brute.txt 192.168.31.178
+Nmap scan report for ColddBox-Easy.lan (192.168.31.178)
+Host is up (0.0016s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-wordpress-brute: 
+|   Accounts: No valid accounts found
+|_  Statistics: Performed 50009 guesses in 492 seconds, average tps: 127.3
+
+# Nmap done at Wed Apr 17 15:28:25 2024 -- 1 IP address (1 host up) scanned in 492.31 seconds

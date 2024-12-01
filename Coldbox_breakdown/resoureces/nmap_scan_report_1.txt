@@ -1,0 +1,12 @@
+# Nmap 7.94SVN scan initiated Wed Apr 17 11:23:19 2024 as: nmap -sV -p- -oN nmap_scan_report_1.txt 192.168.31.178
+Nmap scan report for ColddBox-Easy.lan (192.168.31.178)
+Host is up (0.00025s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.4.18 ((Ubuntu))
+4512/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 (Ubuntu Linux; protocol 2.0)
+MAC Address: 08:00:27:3C:E8:39 (Oracle VirtualBox virtual NIC)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Apr 17 11:23:29 2024 -- 1 IP address (1 host up) scanned in 9.51 seconds

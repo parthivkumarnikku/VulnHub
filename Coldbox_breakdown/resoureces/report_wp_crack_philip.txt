@@ -1,0 +1,122 @@
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.25
+       Sponsored by Automattic - https://automattic.com/
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+[32m[+][0m URL: http://192.168.31.178/ [192.168.31.178]
+[32m[+][0m Started: Wed Apr 17 15:35:37 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entry: Server: Apache/2.4.18 (Ubuntu)
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: http://192.168.31.178/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: http://192.168.31.178/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: http://192.168.31.178/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 4.1.31 identified (Insecure, released on 2020-06-10).
+ | Found By: Rss Generator (Passive Detection)
+ |  - http://192.168.31.178/?feed=rss2, <generator>https://wordpress.org/?v=4.1.31</generator>
+ |  - http://192.168.31.178/?feed=comments-rss2, <generator>https://wordpress.org/?v=4.1.31</generator>
+
+[32m[+][0m WordPress theme in use: twentyfifteen
+ | Location: http://192.168.31.178/wp-content/themes/twentyfifteen/
+ | Last Updated: 2024-04-02T00:00:00.000Z
+ | Readme: http://192.168.31.178/wp-content/themes/twentyfifteen/readme.txt
+ | [33m[!][0m The version is out of date, the latest version is 3.7
+ | Style URL: http://192.168.31.178/wp-content/themes/twentyfifteen/style.css?ver=4.1.31
+ | Style Name: Twenty Fifteen
+ | Style URI: https://wordpress.org/themes/twentyfifteen
+ | Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, st...
+ | Author: the WordPress team
+ | Author URI: https://wordpress.org/
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ |
+ | Version: 1.0 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - http://192.168.31.178/wp-content/themes/twentyfifteen/style.css?ver=4.1.31, Match: 'Version: 1.0'
+
+
+[34m[i][0m No plugins Found.
+
+
+[34m[i][0m No Config Backups Found.
+
+
+[34m[i][0m No Valid Passwords Found.
+
+[33m[!][0m No WPScan API Token given, as a result vulnerability data has not been output.
+[33m[!][0m You can get a free API token with 25 daily requests by registering at https://wpscan.com/register
+
+[32m[+][0m Finished: Wed Apr 17 16:57:37 2024
+[32m[+][0m Requests Done: 482794
+[32m[+][0m Cached Requests: 38
+[32m[+][0m Data Sent: 159.157 MB
+[32m[+][0m Data Received: 1.731 GB
+[32m[+][0m Memory used: 333.516 MB
+[32m[+][0m Elapsed time: 01:22:00
+
+Scan Aborted: SIGHUP
+Trace: /usr/lib/x86_64-linux-gnu/rubygems-integration/3.1.0/gems/ffi-1.16.3/lib/ffi/enum.rb:169:in `from_native'
+/usr/lib/x86_64-linux-gnu/rubygems-integration/3.1.0/gems/ffi-1.16.3/lib/ffi/variadic.rb:47:in `invoke'
+/usr/lib/x86_64-linux-gnu/rubygems-integration/3.1.0/gems/ffi-1.16.3/lib/ffi/variadic.rb:47:in `call'
+/usr/lib/x86_64-linux-gnu/rubygems-integration/3.1.0/gems/ffi-1.16.3/lib/ffi/variadic.rb:62:in `easy_setopt'
+/usr/share/rubygems-integration/all/gems/ethon-0.16.0/lib/ethon/curls/options.rb:108:in `set_option'
+/usr/share/rubygems-integration/all/gems/ethon-0.16.0/lib/ethon/easy/options.rb:36:in `block (2 levels) in <module:Options>'
+/usr/share/rubygems-integration/all/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb:20:in `release'
+/usr/share/rubygems-integration/all/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb:165:in `block in set_callback'
+/usr/share/rubygems-integration/all/gems/ethon-0.16.0/lib/ethon/easy/response_callbacks.rb:74:in `block in complete'
+/usr/share/rubygems-integration/all/gems/ethon-0.16.0/lib/ethon/easy/response_callbacks.rb:74:in `each'
+/usr/share/rubygems-integration/all/gems/ethon-0.16.0/lib/ethon/easy/response_callbacks.rb:74:in `complete'
+/usr/share/rubygems-integration/all/gems/ethon-0.16.0/lib/ethon/multi/operations.rb:189:in `check'
+/usr/share/rubygems-integration/all/gems/ethon-0.16.0/lib/ethon/multi/operations.rb:202:in `run'
+/usr/share/rubygems-integration/all/gems/ethon-0.16.0/lib/ethon/multi/operations.rb:50:in `perform'
+/usr/share/rubygems-integration/all/gems/typhoeus-1.4.0/lib/typhoeus/hydra/runnable.rb:15:in `run'
+/usr/share/rubygems-integration/all/gems/typhoeus-1.4.0/lib/typhoeus/hydra/memoizable.rb:51:in `run'
+/usr/share/rubygems-integration/all/gems/cms_scanner-0.13.9/lib/cms_scanner/finders/finder/breadth_first_dictionary_attack.rb:66:in `block (2 levels) in attack'
+/usr/share/rubygems-integration/all/gems/cms_scanner-0.13.9/lib/cms_scanner/finders/finder/breadth_first_dictionary_attack.rb:38:in `each'
+/usr/share/rubygems-integration/all/gems/cms_scanner-0.13.9/lib/cms_scanner/finders/finder/breadth_first_dictionary_attack.rb:38:in `block in attack'
+/usr/share/rubygems-integration/all/gems/cms_scanner-0.13.9/lib/cms_scanner/finders/finder/breadth_first_dictionary_attack.rb:33:in `foreach'
+/usr/share/rubygems-integration/all/gems/cms_scanner-0.13.9/lib/cms_scanner/finders/finder/breadth_first_dictionary_attack.rb:33:in `attack'
+/usr/share/rubygems-integration/all/gems/wpscan-3.8.25/app/controllers/password_attack.rb:46:in `run'
+/usr/share/rubygems-integration/all/gems/cms_scanner-0.13.9/lib/cms_scanner/controllers.rb:50:in `each'
+/usr/share/rubygems-integration/all/gems/cms_scanner-0.13.9/lib/cms_scanner/controllers.rb:50:in `block in run'
+/usr/lib/ruby/3.1.0/timeout.rb:84:in `timeout'
+/usr/share/rubygems-integration/all/gems/cms_scanner-0.13.9/lib/cms_scanner/controllers.rb:45:in `run'
+/usr/share/rubygems-integration/all/gems/cms_scanner-0.13.9/lib/cms_scanner/scan.rb:24:in `run'
+/usr/share/rubygems-integration/all/gems/wpscan-3.8.25/bin/wpscan:17:in `block in <top (required)>'
+/usr/share/rubygems-integration/all/gems/cms_scanner-0.13.9/lib/cms_scanner/scan.rb:15:in `initialize'
+/usr/share/rubygems-integration/all/gems/wpscan-3.8.25/bin/wpscan:6:in `new'
+/usr/share/rubygems-integration/all/gems/wpscan-3.8.25/bin/wpscan:6:in `<top (required)>'
+/usr/bin/wpscan:25:in `load'
+/usr/bin/wpscan:25:in `<main>'
