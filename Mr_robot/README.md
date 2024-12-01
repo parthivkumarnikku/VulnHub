@@ -26,7 +26,7 @@ vboxmanage dhcpserver add --network=Test-network --server-ip=10.38.1.1 --lower-i
 This enables the dhcp server virtually and allocates the ip address for range 10.38.1.110-120.
 
 4. Now you have to enable another adapter for your kali linux machine having connection with the internal adapter `Test-network`.
-![Screenshot 1](Mr_robot/pictures/0.png "Screenshot of the setup")
+![Screenshot 1](./pictures/0.png "Screenshot of the setup")
 5. Boot up Both the machines.
  
 
