@@ -494,7 +494,7 @@ ssh sameagol@10.38.1.117
 ```
 password is `MyPreciousR00t`
 
-![[./assets/1.png]]
+![](./assets/1.png)
 Here you goo with it we have logged in as `samegul`
 
 ```bash
@@ -620,6 +620,6 @@ main(int argc, char **argv)
 source [exploit-db](https://www.exploit-db.com/exploits/39166)
 ```
 
-![[./assets/2.png]]
+![](./assets/2.png)
 
 # You can explore and can update the flags here ;)
