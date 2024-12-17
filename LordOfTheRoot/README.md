@@ -1,7 +1,9 @@
 ## 1. Network Configuration
 
-**Host IP:** `10.38.1.112`  
+**My - Host IP:** `10.38.1.112`  
 **Interface Information (ifconfig):**
+
+link to the machine -> [link](https://www.vulnhub.com/entry/lord-of-the-root-101,129/)
 
 ```
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
