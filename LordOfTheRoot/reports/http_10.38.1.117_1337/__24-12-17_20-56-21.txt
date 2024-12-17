@@ -1,0 +1,4 @@
+# Dirsearch started Tue Dec 17 21:34:51 2024 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -w /usr/share/wordlists/WordLists-20111129/all.txt -u http://10.38.1.117:1337/
+
+400   304B   http://10.38.1.117:1337/..
+403   709B   http://10.38.1.117:1337/Great!%20You%20want%20to%20learn%20how%20to%20speak%20spanish.%20One%20great%20thing,%20the%20Spanish%20language%20is%20not%20hard%20to%20learn.%20Spanish%20is%20spoken%20by%20most%20of%20the%20world.%20So%20even%20if%20learning%20language%20is%20hard,%20you%20really%20should%20have%20no%20problem%20finding%20a%20technique%20that%20will%20make%20it%20easy.%20Next%20well%20go%20into%20some%20strategies%20you%20can%20employ%20to%20make%20learning%20Spanish%20a%20whole%20lot%20easier%20and%20more%20fun.%20Keep%20in%20mind%20to%20have%20some%20patience.%20learneasyspanishlessons

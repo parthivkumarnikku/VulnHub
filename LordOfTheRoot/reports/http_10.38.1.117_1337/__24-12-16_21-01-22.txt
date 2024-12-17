@@ -1,3 +1,0 @@
-# Dirsearch started Mon Dec 16 21:03:58 2024 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -w /usr/share/wordlists/rockyou.txt -u http://10.38.1.117:1337/
-
-301   317B   http://10.38.1.117:1337/images    -> REDIRECTS TO: http://10.38.1.117:1337/images/
