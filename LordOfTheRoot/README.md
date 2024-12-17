@@ -1,3 +1,21 @@
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#)
+[![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)](#)
+[![VulnHub](https://img.shields.io/badge/VulnHub-000000?style=for-the-badge&logo=apache&logoColor=white)](#)
+[![SQL Injection](https://img.shields.io/badge/SQL_Injection-336791?style=for-the-badge&logo=mysql&logoColor=white)](#)
+[![SQLMap](https://img.shields.io/badge/SQLMap-000000?style=for-the-badge&logo=python&logoColor=yellow)](#)
+[![Apache](https://img.shields.io/badge/Apache-CA0F28?style=for-the-badge&logo=apache&logoColor=white)](#)
+[![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](#)
+[![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)](#)
+[![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)](#)
+[![Nmap](https://img.shields.io/badge/Nmap-004170?style=for-the-badge&logo=nmap&logoColor=white)](#)
+[![Metasploit](https://img.shields.io/badge/Metasploit-000000?style=for-the-badge&logo=metasploit&logoColor=blue)](#)
+[![Shell Access](https://img.shields.io/badge/Shell_Access-000000?style=for-the-badge&logo=gnu-bash&logoColor=white)](#)
+[![Privilege Escalation](https://img.shields.io/badge/Privilege_Escalation-FF0000?style=for-the-badge&logo=linux&logoColor=white)](#)
+[![SSH](https://img.shields.io/badge/SSH-000000?style=for-the-badge&logo=openssh&logoColor=white)](#)
+[![Exploit-DB](https://img.shields.io/badge/Exploit_DB-2A2A2A?style=for-the-badge&logo=exploit-db&logoColor=white)](#)
+[![Wordlist](https://img.shields.io/badge/Wordlist-FFB000?style=for-the-badge&logo=hackthebox&logoColor=black)](#)
+
+---
 ## 1. Network Configuration
 
 **My - Host IP:** `10.38.1.112`  
