@@ -1,3 +1,4 @@
+[![LordOfTheRoot](https://img.shields.io/badge/LordOfTheRoot-FF0000?style=for-the-badge&logo=linux&logoColor=white)](#)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#)
 [![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)](#)
 [![VulnHub](https://img.shields.io/badge/VulnHub-000000?style=for-the-badge&logo=apache&logoColor=white)](#)
