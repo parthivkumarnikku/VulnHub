@@ -1,0 +1,3 @@
+# Dirsearch started Tue Dec 17 20:56:23 2024 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -w /usr/share/wordlists/WordLists-20111129/all.txt -u http://10.38.1.117:1337/
+
+400   304B   http://10.38.1.117:1337/..
