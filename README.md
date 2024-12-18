@@ -4,6 +4,7 @@ This repository contains solutions to various VulnHub machines. Each folder corr
 
 ## Badges
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#)  [![Virtual Lab](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)](#)  [![VulnHub](https://img.shields.io/badge/VulnHub-26A69A?style=for-the-badge&logo=v&logoColor=white)](https://www.vulnhub.com)  [![Mr Robot:1](https://img.shields.io/badge/Mr_Robot_1-D32F2F?style=for-the-badge&logo=robots&logoColor=white)](https://www.vulnhub.com/entry/mr-robot-1,151/)  [![Nmap](https://img.shields.io/badge/Nmap-4CAF50?style=for-the-badge&logo=n&logoColor=white)](https://nmap.org)  [![Wpscan](https://img.shields.io/badge/Wpscan-F44336?style=for-the-badge&logo=wordpress&logoColor=white)](https://github.com/wpscanteam/wpscan)
+[![LordOfTheRoot](https://img.shields.io/badge/LordOfTheRoot-FF0000?style=for-the-badge&logo=linux&logoColor=white)](#)
 
 ## Overview
 
@@ -16,6 +17,9 @@ This repository provides solutions to various challenges available on VulnHub. E
 
 - **Machine 2 - Mr. Robot**  
   Walkthrough and solution for Mr. Robot's VulnHub machine.
+
+- **Machine 3 - LordOfTheRoot 1.0.1**
+  Walkthrough for the machine LordOfTheRoot 1.0.1
 
 
 ## Tools Used
